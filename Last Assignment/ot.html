@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+</head>
+    <link href="css/style.css" rel="stylesheet">
+<body>
+    <header>
+          
+        <nav>
+            <div class="header_logo">
+              <img src="img/logo.png" width="1600px"  height="360" alt="ロゴ">
+            </div>
+            <ul class="header_navlist">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="os.html">オススメ作品</a></li>
+                <li><a href="ks.html">今期の作品について</a></li>
+                <li><a href="pr.html">プロフィール</a></li>
+                <li><a href="ot.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+   </header>
+
+   <main>
+    <article>                
+        <h2>お問い合わせ</h2>
+        <p>当サイトについて質問やご意見については下記フォームよりお問い合わせください。<br>
+            また、任意ですがアンケート内容にも協力お願い致します。</p>
+        <form name="form1" method="get" action="">
+            <table>
+                <tr>
+                    <th>氏名（必須）</th>
+                    <td><input type="text" name="name" size="30"></td>
+                </tr>
+                <tr>
+                    <th>Eメール（必須）</th>
+                    <td><input type="email" name="email" size="30"></td>
+                </tr>
+                <tr>                        
+                    <th>電話番号（任意）</th>
+                    <td><input type="tel" name="tel" size="30"></td>
+                </tr>
+                <tr>
+                    <th>アンケート（任意）</th>
+                    <td>
+                        <p>性別</p>
+                        <input type="radio" name="sex" value="男" checked="checked"> 男　
+                        <input type="radio" name="sex" value="女"> 女
+                        <p>年齢</p>
+                        <input type="radio" name="riyu" value="1">10代
+                        <input type="radio" name="riyu" value="2">20代
+                        <input type="radio" name="riyu" value="3">30代
+                        <input type="radio" name="riyu" value="4">40代
+                        <input type="radio" name="riyu" value="5">50代
+                        <input type="radio" name="riyu" value="6">60代
+                        <input type="radio" name="riyu" value="7">70代以上
+                        <p>当サイトを知ったきっかけ</p>
+                        <input type="checkbox" name="riyu" value="1">友人・知人からの紹介
+                        <input type="checkbox" name="riyu" value="2">インフルエンサーからの紹介
+                        <input type="checkbox" name="riyu" value="3">ウェブ広告
+                        <input type="checkbox" name="riyu" value="4">たまたま見つけた
+                        <input type="checkbox" name="riyu" value="5">その他
+                    </td>
+                </tr>
+                <tr>       
+                    <th>用件（必須）</th>
+                    <td>
+                        <select name="inquiry">
+                            <option value="">選択してください</option>
+                            <option value="sweets">情報提供</option>
+                            <option value="reservation">情報訂正</option>
+                            <option value="request">上記以外の当サイトへの要望・ご意見</option>
+                            <option value="other">その他</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>問い合わせ内容（必須）</th>
+                    <td><textarea name="freeans" rows="5" cols="60"></textarea></td>
+                </tr>
+                <tr>    
+                    <td colspan="2" id="submit">
+                        <input type="submit" value="送信">
+                        <input type="reset" value="取り消し">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </article>
+</main>
+<footer>
+    <small>Copyright 2023 アニメ評論ラボ All Rights Reserved.</small>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body{
+    margin:0;  /* bodyタグの余計な余白を削除　*/
+}
+
+/* ヘッダー　*/
+
+.header_logo{
+    float:none;
+	max-width:100%;
+    text-align:center;
+}
+
+.header_navlist{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    font-size:30px;
+}
+
+.header_navlist li:hover{
+    background: #ffd19c;
+    }
+.header_navlist li{
+    margin:28px 32px;
+    list-style:none;
+}
+
+.header_navlist a{
+    text-decoration:none;
+    margin:16px 28px;
+    list-style:none;
+    color:#000
+}
+
+/* メイン　*/
+main{
+    margin: 0 40px;
+}
+
+.main_content h2{
+    font-size:60px;
+    font-family:serif;
+    font-weight:normal;
+    text-align:center;
+    color: red;
+}
+
+.main_content_body{
+    font-size:60px;
+    text-align:center;
+}
+
+/*オススメ作品　*/
+h5{
+    font-size:normal;
+    width:950px;
+}
+
+/* プロフィール　*/
+.pr_text{
+    margin:auto;
+    background-color: #010535;
+    border: solid 1px #fff;
+    width:29%;
+    padding-right:30px;
+    color:#fff;
+}
+
+.pr_visual{
+    text-align:center;
+}
+/* 問い合わせテーブル　*/
+table {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid #333333;
+    padding: 5px;
+}
+th {
+    width: 200px;
+    background-color: #010535;
+    color: white;
+}
+td {width: 600px;}
+#submit{text-align: right;}
